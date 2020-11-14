@@ -1,0 +1,108 @@
+<!-- created by:- AJITH ACHARYA-->
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script src="calculator.js"></script>
+ </head>
+    <body>
+    <center>
+        <div id="main_heading">CALCULATOR</div>
+        <div id="sideDrawer">
+            <div class="side_access">
+                <div id="op_one"></div>
+                <div id="op_two"></div>
+                <div id="op_three"></div>
+            </div></centre>
+            <ul>
+             <div class="btn">
+    <input class="input" type="submit" value="HOME"><br /><br />
+    
+<input class="input" type="submit" value="EDIT PROFILE"><br /><br />
+
+<input class="input" type="submit" value="UPDATE"><br /><br />
+    
+<input class="input" type="submit" value="NOTE"><br /><br />
+
+ <input class="input" type="submit" value="WORKER DETAILS"><br /><br />
+      
+  <input class="input" type="submit" value="DATE & TIME"><br /><br />
+  
+ <input class="input" type="submit" value="CALCULATOR"><br /><br />
+ 
+ <input class="input" type="submit" value="LOGOUT">
+            
+            </ul>
+        </div></div>
+            
+        <br /><br /><br /><br /><br />
+
+<div id="sign">
+<div id="sec1">
+    <h1>CALCULATOR...</h1>
+</div>
+    
+<div>
+    
+<div id="history">
+<p id="his">0</p>
+</div>
+<div id="output">
+    <p id="out">0</p>
+</div>
+<div id="num">
+<table align="center" cellpading=10>
+
+<tr><td>
+<input onclick="change(x+='7')" type="button" value="7">   
+</td><td>
+<input onclick="change(x+='8')" type="button" value="8"/>
+</td><td>
+<input onclick="change(x+='9')" type="button" value="9"/>
+</td><td>
+ <input onclick="change(x='')" type="button" value="C"/>
+ </td> <td>
+<input onclick="change(x=x.substr(0,x.length-1))" type="button" value="×"/></td>
+</tr><tr><td>
+<input onclick="change(x+='4')" type="button" value="4"/>
+</td><td>
+<input onclick="change(x+='5')" type="button" value="5"/>
+</td><td>
+<input onclick="change(x+='6')" type="button" value="6"/>
+</td><td>
+   <input onclick="change(x+='*')" type="button" value="×"/>
+   </td><td>
+  <input onclick="change(x+='/')" type="button" value="÷"/>
+  </td></tr><tr><td>
+<input onclick="change(x+='1')" type="button" value="1"/>
+</td><td>
+ <input onclick="change(x+='2')" type="button" value="2"/>
+ </td><td>
+   <input onclick="change(x+='3')" type="button" value="3"/>
+   </td><td>
+  <input onclick="change(x+='+')" type="button" value="+"/>
+  </td><td>
+  <input onclick="change(x+='-')" type="button" value="-"/>
+  </td> </tr> <tr> <td>
+  <input onclick="change(x+='0')" type="button" value="0"/>
+  </td><td>
+ <input onclick="change(x+='.')" type="button" value="."/>
+ </td><td>
+  <input onclick="change(x+='00')" style="font-size:20px;" type="button" value="00">
+  </td><td>
+  <input onclick="change2(x)" style="font-size:15px;" type="button" value="ans"/>
+  </td><td>
+  <input onclick="change1(x)" type="button" value="="/>
+  </td>
+  </tr>
+  </table>
+    </div>
+    <br />
+</div>
+
+
+
+</body>
+</html>
